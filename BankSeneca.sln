@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankSeneca", "BankSeneca\BankSeneca.vcxproj", "{702BBD79-4974-47D8-8372-A2AFC0365756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Client|x64 = Debug Client|x64
+		Debug Client|x86 = Debug Client|x86
+		Debug Server|x64 = Debug Server|x64
+		Debug Server|x86 = Debug Server|x86
+		Release Client|x64 = Release Client|x64
+		Release Client|x86 = Release Client|x86
+		Release Server|x64 = Release Server|x64
+		Release Server|x86 = Release Server|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Debug Client|x64.ActiveCfg = Debug Client|x64
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Debug Client|x64.Build.0 = Debug Client|x64
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Debug Client|x86.ActiveCfg = Debug Client|Win32
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Debug Client|x86.Build.0 = Debug Client|Win32
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Debug Server|x64.ActiveCfg = Debug Server|x64
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Debug Server|x64.Build.0 = Debug Server|x64
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Debug Server|x86.ActiveCfg = Debug Server|Win32
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Debug Server|x86.Build.0 = Debug Server|Win32
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Release Client|x64.ActiveCfg = Release Client|x64
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Release Client|x64.Build.0 = Release Client|x64
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Release Client|x86.ActiveCfg = Release Client|Win32
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Release Client|x86.Build.0 = Release Client|Win32
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Release Server|x64.ActiveCfg = Release Server|x64
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Release Server|x64.Build.0 = Release Server|x64
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Release Server|x86.ActiveCfg = Release Server|Win32
+		{702BBD79-4974-47D8-8372-A2AFC0365756}.Release Server|x86.Build.0 = Release Server|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {541878A1-D1F8-48D0-B7CB-C96EBCBAD6AF}
+	EndGlobalSection
+EndGlobal

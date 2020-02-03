@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Client">
+      <UniqueIdentifier>{1e1697f7-38dc-4f35-a8af-0cf6e466890d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server">
+      <UniqueIdentifier>{a8827619-fb2c-4285-938a-612b988f5c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{a5039047-3e83-4ff6-b9fb-6890575359ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server">
+      <UniqueIdentifier>{5f4ac433-9d9f-4870-8a7b-f699eee3b88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{52c7f375-bc1b-4438-9569-558de65f9417}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\CommonIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\NetConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\Packets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\PacketHandlers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthServer.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\BankClient.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="BankServer.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\Database.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\Socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\ServerFrontEnd.h">
+      <Filter>Header Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\ISocketEventListener.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\INetConnectionEventListener.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Packets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\PacketHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\BankClient.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthServer.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="BankServer.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\NetConnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\JKIM504%40Seneca\2nd Semester\DCF255\Final Project\BankSeneca\BankSeneca\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
